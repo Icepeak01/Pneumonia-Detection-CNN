@@ -1,17 +1,24 @@
 Pneumonia-Detection-CNN/
 ├── data/
 │   ├── raw/
-│   │   ├── Pneumonia/
-│   │   └── Normal/
+│   │   ├── test/
+│   │   │   ├── PNEUMONIA/
+│   │   │   └── NORMAL/
+│   │   ├── train/
+│   │   │   ├── PNEUMONIA/
+│   │   │   └── NORMAL/
+│   │   └── val/
+│   │       ├── PNEUMONIA/
+│   │       └── NORMAL/
 │   ├── train/
-│   │   ├── Pneumonia/
-│   │   └── Normal/
+│   │   ├── PNEUMONIA/
+│   │   └── NORMAL/
 │   ├── val/
-│   │   ├── Pneumonia/
-│   │   └── Normal/
+│   │   ├── PNEUMONIA/
+│   │   └── NORMAL/
 │   └── test/
-│       ├── Pneumonia/
-│       └── Normal/
+│       ├── PNEUMONIA/
+│       └── NORMAL/
 ├── notebooks/
 │   └── notebook.ipynb
 ├── src/
